@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import './App.css';
 import Header from './components/header/header.component';
 import Carousel from './components/carousel/carousel.component';
-import { Router, Route, Switch, Link, BrowserRouter, Redirect } from 'react-router-dom';
+import {HashRouter, Router, Route, Switch, Link, BrowserRouter, Redirect } from 'react-router-dom';
 import SignIn from './components/sign-in/sign-in.component';
 import SignPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import About from './pages/about/about';
@@ -53,7 +53,7 @@ class App extends React.Component {
         <Suspense fallback={<SpinnerComp />}
         >
           <Header />
-          <BrowserRouter>
+          <HashRouter>
 
 
             <Route exact path="/" component={Home} />
@@ -76,7 +76,7 @@ class App extends React.Component {
                 (<Signup />)} />
             <Route exact path="/contact-us" component={ContactUs} />
 
-          </BrowserRouter>
+          </HashRouter>
           <Footer />
         </Suspense>
 
