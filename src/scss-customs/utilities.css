@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+}
+
+.mt-large {
+  margin-top: 110px !important;
+}
+
+.but {
+  color: #fff;
+  background-color: #3587D7;
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 3px;
+  width: 222px;
+  text-align: center;
+  padding: 13px;
+}
+
+.but:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.but:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.logo-txt {
+  color: #3587D7 !important;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.font-md {
+  font-size: 1.3rem;
+}
+
+.border-t {
+  border-top: 1px solid #6e6e6e;
+  display: none;
+}
+/*# sourceMappingURL=utilities.css.map */

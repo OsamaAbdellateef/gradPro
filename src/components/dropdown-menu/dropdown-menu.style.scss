@@ -1,0 +1,17 @@
+
+
+ul {
+    min-width: 135px !important;
+ } 
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    position: absolute;
+    left: 2%;
+    top: 15%;
+     outline: none !important;
+
+     
+}
+.MuiTouchRipple-root:active {
+    outline: none !important;
+}

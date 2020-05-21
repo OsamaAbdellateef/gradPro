@@ -1,0 +1,65 @@
+@import './../../scss-customs/mixins.scss';
+@import './../../scss-customs/variables.scss';
+@import './../../scss-customs//utilities.scss';
+
+footer {
+    color: $color-semi-white;
+
+ 
+    .content p {
+        color: #b1b1b1
+    }
+
+    .col {
+        padding: 15px;
+    }
+
+
+    li {
+        color: $color-semi-white;
+
+        a {
+            font-size: 1rem;
+            color: $color-semi-white;
+            @include trans(200ms);
+        }
+
+        &:hover a {
+            text-decoration: none;
+            color: $color-semi-white;
+        }
+
+        svg {
+            @include trans(200ms);
+            margin-left: 9px;
+        }
+
+        margin-bottom: 9px;
+    }
+
+
+    background-color: $color-dark;
+
+    & .col:nth-of-type(2) {
+        li {
+
+            color: $color-semi-white;
+
+            &:hover svg {
+                transform: translate(-2px);
+                color: $color-primary;
+            }
+        }
+        
+    }
+
+    & .col:last-of-type {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        a {
+            margin-left: 9px;
+        }
+    }
+}

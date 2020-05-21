@@ -1,0 +1,73 @@
+@import './../scss-customs/mixins.scss';
+@import './../scss-customs/variables.scss';
+.container {
+    position: relative;
+}
+.mt-large {
+    margin-top: 110px !important;
+}
+
+.but {
+    color: #fff;
+    background-color: #3587D7;
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 3px;
+    width: 222px;
+    text-align: center;
+    padding: 13px;
+    margin-right: 9px;
+    margin-top: 10px;
+ :nth-of-type(2){
+     margin-right: 3px;
+ }
+    &:hover {
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    &:focus {
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+.logo-txt {
+    color:$color-primary !important;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.font-md {
+    font-size: 1.3rem;
+}
+
+.d-block {
+    display: block;
+}
+
+.border-t {
+    border-top: 1px solid rgb(110, 110, 110);
+    display: none;
+}
+
+
+.centerVH {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.centerV {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width:"919px") {
+    .but {
+        margin-right: 0px !important;
+    }
+}

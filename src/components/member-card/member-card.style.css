@@ -1,0 +1,83 @@
+.mt-large {
+  margin-top: 110px !important;
+}
+
+.but {
+  color: #fff;
+  background-color: #3587D7;
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 3px;
+  width: 222px;
+  text-align: center;
+  padding: 13px;
+}
+
+.but:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.but:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.logo-txt {
+  color: #3587D7 !important;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.font-md {
+  font-size: 1.3rem;
+}
+
+.border-t {
+  border-top: 1px solid #6e6e6e;
+  display: none;
+}
+
+.our-team-preview .col {
+  height: 400px;
+  margin-bottom: 25px;
+  overflow: inherit;
+}
+
+.our-team-preview .inner-content {
+  background: #fff;
+  padding: 1rem 20px;
+  background: #fff;
+  padding: 1rem 10px;
+  border: 1px solid rgba(134, 134, 134, 0.32);
+  border-radius: 10px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  height: 400px;
+}
+
+.our-team-preview .inner-content .img-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 9px auto;
+}
+
+.our-team-preview .inner-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.our-team-preview .inner-content .member-job {
+  display: inline-block;
+  background-color: #3587D7;
+  padding: 10px;
+  color: #fff;
+  border-radius: 30px;
+  margin: 10px 0;
+  display: inline-block;
+}
+/*# sourceMappingURL=member-card.style.css.map */

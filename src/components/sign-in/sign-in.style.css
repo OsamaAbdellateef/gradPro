@@ -1,0 +1,131 @@
+.mt-large {
+  margin-top: 110px !important;
+}
+
+.but {
+  color: #fff;
+  background-color: #3587D7;
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 3px;
+  width: 222px;
+  text-align: center;
+  padding: 13px;
+}
+
+.but:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.but:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.logo-txt {
+  color: #3587D7 !important;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.font-md {
+  font-size: 1.3rem;
+}
+
+.border-t {
+  border-top: 1px solid #6e6e6e;
+  display: none;
+}
+
+.sign-wrapper .container {
+  padding: 0px 100px;
+}
+
+.sign-wrapper .row {
+  margin-top: 90px;
+  padding: 0;
+  -webkit-box-shadow: 0 0 9px 4px rgba(151, 151, 151, 0.192);
+          box-shadow: 0 0 9px 4px rgba(151, 151, 151, 0.192);
+}
+
+.sign-wrapper .row .col:first-of-type {
+  padding: 50px !important;
+}
+
+.sign-wrapper .row .col:last-of-type {
+  padding: 0;
+}
+
+.sign-wrapper .sign-in {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+}
+
+.sign-wrapper .sign-in .hr-text {
+  line-height: 1em;
+  position: relative;
+  color: #808ea5;
+  height: 1.5em;
+  outline: 0px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  -o-border-image: initial;
+     border-image: initial;
+}
+
+.sign-wrapper .sign-in .hr-text::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+  background: #dfdfdf;
+}
+
+.sign-wrapper .sign-in .hr-text::after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  line-height: 1.5em;
+  background-color: white;
+  padding: 0px 0.5em;
+}
+
+.grad-background {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0)), to(rgba(0, 0, 255, 0))), url(../../images//background//login-background.jpg);
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 255, 0)), url(../../images//background//login-background.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 991px) {
+  span {
+    display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sign-wrapper .container {
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .sign-wrapper .row .col:first-of-type {
+    padding: 30px !important;
+  }
+}
+/*# sourceMappingURL=sign-in.style.css.map */

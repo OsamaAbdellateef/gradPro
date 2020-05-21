@@ -1,0 +1,31 @@
+select {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid grey;
+    color: grey;
+    &:focus {
+        outline: none;
+    }
+
+
+    &.w100 {
+        width: 100% !important;
+    }
+    &.w20 {
+        width: 18% !important;
+    }
+    &.w30 {
+        width: 28% !important;
+        margin-right: 2%;
+    }
+    &.w50 {
+        width: 48% !important;
+        margin-right: 4%;
+    }
+    
+
+    &.no-border {
+        border: none !important;
+    }
+    
+}

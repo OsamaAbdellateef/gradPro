@@ -1,0 +1,33 @@
+select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: grey;
+}
+
+select:focus {
+  outline: none;
+}
+
+select.w100 {
+  width: 100% !important;
+}
+
+select.w20 {
+  width: 18% !important;
+}
+
+select.w30 {
+  width: 28% !important;
+  margin-right: 2%;
+}
+
+select.w50 {
+  width: 48% !important;
+  margin-right: 4%;
+}
+
+select.no-border {
+  border: none !important;
+}
+/*# sourceMappingURL=select.style.css.map */

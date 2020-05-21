@@ -1,0 +1,45 @@
+.craft-card.col {
+  border-radius: 10px;
+  height: 400px;
+}
+
+.craft-card.col button {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 70%;
+}
+
+.craft-card.col svg {
+  margin-left: 10px;
+}
+
+.craft-card.col h5 {
+  font-size: 1.0rem;
+  margin-bottom: 10px;
+}
+
+.craft-card.col .content {
+  -webkit-box-shadow: 0 0 8px 3px #e0e0e0;
+          box-shadow: 0 0 8px 3px #e0e0e0;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.craft-card.col .content .image-container {
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 55%;
+}
+
+.craft-card.col .content .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.craft-card.col .content .details {
+  padding: 10px;
+}
+/*# sourceMappingURL=craft-card.style.css.map */

@@ -1,0 +1,54 @@
+@import './../../scss-customs/mixins.scss';
+@import './../../scss-customs/variables.scss';
+@import './../../scss-customs/utilities.scss';
+
+.mainView {
+    color: $color-white;
+    background-color: red;
+    height: 100vh;
+    background-image: linear-gradient(to right, #3493e68e, #ec6ead85), url(../../images/header-image.jpg);
+    @include cfx();
+    h1{
+        font-size: 3rem;
+    }
+
+    @include bgStyling();
+    .carousel-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include centerVH();
+    }
+
+    @media (max-width:919px) {
+        .but {
+            margin-right: 0px !important;
+            
+        }
+        
+         h1{
+          font-size: 2rem;
+        }
+         p {
+             font-size: 1.2rem;
+         }
+        }
+
+        @media (max-width:919px) {
+            
+            img {
+                width: 130px;
+                margin-bottom: 20px !important;
+            }
+            
+             h1{
+              font-size: 1.4rem;
+              margin-bottom: 10px !important;
+              font-weight: bolder;
+            }
+             p {
+                 font-size: 0.9rem;
+             }
+            }
+}
+

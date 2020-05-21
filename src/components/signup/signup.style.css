@@ -1,0 +1,27 @@
+.sign-up .container {
+  max-width: 750px !important;
+}
+
+.sign-up .button {
+  width: 40%;
+  margin-right: 0;
+}
+
+@media (max-width: 1050px) {
+  .sign-up .button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sign-up .button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .sign-up .button {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=signup.style.css.map */

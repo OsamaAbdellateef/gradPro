@@ -1,0 +1,12 @@
+@import '../../scss-customs/mixins.scss';
+@import '../../scss-customs/utilities.scss';
+@import '../../scss-customs/variables.scss';
+
+.group {
+    .file-placeholder {
+        @include centerV()
+    }
+    input[type='file'] {
+        opacity: 0;
+    }
+}

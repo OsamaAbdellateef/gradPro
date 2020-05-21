@@ -1,0 +1,27 @@
+
+@import '../../scss-customs//utilities.scss';
+@import '../../scss-customs//variables.scss';
+@import '../../scss-customs//mixins.scss';
+
+.icon-box {
+    padding: 50px !important;
+    cursor: pointer;
+    
+    .box-content {
+        @include trans(200ms);
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.116) ;
+        box-shadow: 0 0 10px 5px #9696960d;
+        &:hover {
+            transform: translateY(-5px);
+        box-shadow: 0 0 20px 15px #2b2b2b09;
+        }
+    }   
+
+   
+    svg {
+        font-size: 40px;
+    }
+
+}

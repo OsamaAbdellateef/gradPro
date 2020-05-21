@@ -1,0 +1,28 @@
+@import './../../scss-customs/mixins.scss';
+@import './../../scss-customs/variables.scss';
+@import './../../scss-customs/utilities.scss';
+.navbar {
+    background-color: $color-white;
+    font-size: medium;
+    position: fixed !important;
+    width: 100vw;
+    box-shadow: 0px 3px 7px -1px darkgrey;
+    top: 0;
+    left: 0;
+    right: 0;
+    .dropdown-item {
+        text-align: right !important;
+    }
+     .nav-link {
+        color: $color-dark !important;
+        font-weight: 600;
+        font-size: 0.9rem;
+        @include trans(200ms);
+        &:hover {
+           @include hoverColor($color-primary);
+        }
+        
+    }
+    z-index: 10;
+}
+

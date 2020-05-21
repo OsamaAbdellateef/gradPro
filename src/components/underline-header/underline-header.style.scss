@@ -1,0 +1,15 @@
+@import '../../scss-customs/variables.scss';
+
+.underline-header-container {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        right: -16px;
+        bottom: -16px;
+        width: 20%;
+        height: 4px;
+        background-color: $color-primary;
+    }
+
+}

@@ -1,0 +1,36 @@
+@import 'variables.scss';
+
+@mixin centerV {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin  centerVH {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin trans($speed) {
+    transition:all 200ms ease-in-out ;
+}
+
+@mixin  hoverColor($color) {
+    color:$color !important;
+}
+
+@mixin  bgStyling {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+@mixin  cfx {
+    &::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+}

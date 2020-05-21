@@ -1,0 +1,12 @@
+* {
+  font-family: 'cairo' !important;
+}
+
+.MuiFormControlLabel-root {
+  margin-right: 0 !important;
+}
+
+.MuiCheckbox-root {
+  padding-right: 0px !important;
+}
+/*# sourceMappingURL=checkbox.style.css.map */

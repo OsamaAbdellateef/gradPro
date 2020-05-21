@@ -1,0 +1,48 @@
+@import '../../scss-customs/mixins.scss';
+@import '../../scss-customs/utilities.scss';
+@import '../../scss-customs/variables.scss';
+
+.our-team-preview {
+    .col {
+        height: 400px;
+        margin-bottom: 25px;
+        overflow: inherit;
+    }
+
+    .inner-content {
+        background: $color-white;
+        padding: 1rem 20px;
+        background: $color-white;
+        padding: 1rem 10px;
+        border: 1px solid rgba(134, 134, 134, 0.32);
+        border-radius: 10px;
+        -webkit-transition: all 200ms ease-in-out;
+        @include trans(200ms);
+        height: 400px;
+
+        .img-container {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            margin: 9px auto;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        .member-job {
+            display: inline-block;
+            background-color: $color-primary;
+            padding: 10px;
+            color: $color-white;
+            border-radius: 30px;
+            margin: 10px 0;
+            display: inline-block;
+        }
+
+    }
+}

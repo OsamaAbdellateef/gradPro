@@ -1,0 +1,47 @@
+[debug] [2020-04-06T13:21:15.601Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T13:21:15.604Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\osama\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js ext:install firestore-send-email --project=crwd-4a680
+[debug] [2020-04-06T13:21:15.604Z] CLI Version:   7.16.1
+[debug] [2020-04-06T13:21:15.604Z] Platform:      win32
+[debug] [2020-04-06T13:21:15.604Z] Node Version:  v12.14.1
+[debug] [2020-04-06T13:21:15.605Z] Time:          Mon Apr 06 2020 15:21:15 GMT+0200 (Eastern European Standard Time)
+[debug] [2020-04-06T13:21:15.605Z] ----------------------------------------------------------------------
+[debug] [2020-04-06T13:21:15.605Z] 
+[debug] [2020-04-06T13:21:15.613Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-06T13:21:15.614Z] > authorizing via signed-in user
+[debug] [2020-04-06T13:21:15.614Z] [iam] checking project crwd-4a680 for permissions ["firebase.projects.get","firebasemods.instances.create"]
+[debug] [2020-04-06T13:21:15.619Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-06T13:21:15.619Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-06T13:21:16.253Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-06T13:21:16.315Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/crwd-4a680:testIamPermissions  
+
+[debug] [2020-04-06T13:21:17.317Z] <<< HTTP RESPONSE 200
+[info] i  extensions: ensuring necessary APIs are enabled...
+[debug] [2020-04-06T13:21:17.321Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/crwd-4a680/services/firebaseextensions.googleapis.com  
+ 
+[debug] [2020-04-06T13:21:18.574Z] <<< HTTP RESPONSE 200
+[warn] !  extensions: missing necessary APIs. Enabling now...
+[debug] [2020-04-06T13:21:18.577Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/crwd-4a680/services/firebaseextensions.googleapis.com:enable  
+ 
+[debug] [2020-04-06T13:21:20.900Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-06T13:21:30.902Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/crwd-4a680/services/firebaseextensions.googleapis.com  
+ 
+[debug] [2020-04-06T13:21:32.041Z] <<< HTTP RESPONSE 200
+[info] +  extensions: all necessary APIs are enabled
+[debug] [2020-04-06T13:21:32.044Z] >>> HTTP REQUEST GET https://extensions-registry.firebaseapp.com/extensions.json  
+ 
+[debug] [2020-04-06T13:21:32.814Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-06T13:21:32.816Z] >>> HTTP REQUEST GET https://firebaseextensions.googleapis.com/v1beta/projects/firebasemods/sources/f0226e29-f08d-442b-aaed-83fbd2413ac9  
+ 
+[debug] [2020-04-06T13:21:34.050Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-06T13:21:34.052Z] >>> HTTP REQUEST GET https://cloudbilling.googleapis.com/v1/projects/crwd-4a680/billingInfo  
+ 
+[debug] [2020-04-06T13:21:35.160Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-06T13:21:35.161Z] >>> HTTP REQUEST GET https://cloudbilling.googleapis.com/v1/billingAccounts  
+ 
+[debug] [2020-04-06T13:21:36.137Z] <<< HTTP RESPONSE 200
+[info] 
+[info] The extension Trigger Email requires your project to be upgraded to the Blaze plan. Please visit the following link to add a billing account:
+[info] 
+[info] https://console.cloud.google.com/billing/linkedaccount?project=crwd-4a680
+[info] 

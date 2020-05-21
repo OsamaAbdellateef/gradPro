@@ -1,0 +1,24 @@
+@import '../../scss-customs/utilities.scss';
+
+.right-67 {
+    right: 80%;
+    font-weight: bold;
+}
+ 
+.MuiAppBar-colorPrimary {
+    background-color: #3587D7 !important;
+}
+
+.waiting {
+    color: cornflowerblue;
+}
+
+.recieved {
+    color: #0dd90d;
+}
+
+@media (max-width:"550px") {
+    .right-67 {
+        right: 53% !important;
+    }
+}

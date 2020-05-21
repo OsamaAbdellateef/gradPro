@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,cADU,AACT,IAAI,CAAC;EACF,MAAM,EAAE,qBAAqB;CAChC",
+    "sources": [
+        "craft-preview.style.scss"
+    ],
+    "names": [],
+    "file": "craft-preview.style.css"
+}
