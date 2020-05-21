@@ -5,7 +5,7 @@
   text-align: right;
   direction: rtl;
   font-family: 'cairo';
-  color:red
+
 }
 
 
@@ -22,7 +22,7 @@
   background: #888;position: absolute !important;
 }*/
 .loader {
-  color: red;
+
   font-size: 90px;
   text-indent: -9999em;
   overflow: hidden;
