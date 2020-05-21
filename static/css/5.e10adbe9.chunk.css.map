@@ -1,0 +1,1 @@
+{"version":3,"sources":["craft-preview.style.scss"],"names":[],"mappings":"AAAA,eACI,gBAAiB,CADrB,mBAGQ,2BAA6B","file":"5.e10adbe9.chunk.css","sourcesContent":[".craft-preview  {\r\n    min-height: 500px;\r\n    &.row {\r\n        margin: 100px auto !important;\r\n    }\r\n}\r\n"]}
